@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Form></title>
+        <style>
+          body{
+            background-image: url(hostel5.jpg);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+          }
+          .main{
+            width: 500px;
+            backdrop-filter: blur(5px);
+            margin: 250px auto;
+            padding: 20px;
+            font-size: 30px;
+            color: orangered;
+            box-shadow: 4px 4px 20px;
+            border-radius: 15px 30px 15px 30px;
+            transition: 1s;
+          }
+         .main h1{
+          color: rgb(230, 139, 20);
+          text-align: center;
+          text-shadow: 3px 3px 6px;
+         }
+         .main .textlabel{
+          display: block;
+         }
+         .input input{
+          text-align: center;
+          padding: 5px 10px ;
+          width: 100%;
+          font-size: 1em;
+          box-sizing: border-box;
+          margin: 15px;
+          border: 1px solid rgb(177, 80, 35);
+          border-radius: 5px;
+         }
+         input:focus{
+          background-color: rgb(191, 191, 228);
+         }
+         .btn{
+          text-align: center;
+         }
+         button{
+          font-size: 30px;
+          padding: 10px 15px;
+          color: orangered;
+          background-color: aquamarine;
+          border-radius: 6px;
+         }
+         .checkbox input{
+          accent-color: orange;
+          transform: scale(1.5);
+         }
+          .main:hover{
+            transform: scale(0.9);
+          }
+          a{
+            color:rgb(255, 255, 255);
+          }
+        </style>
+    </head>
+      
+        
+    <body>
+      <div class="main">
+      <h1>LOGIN</h1>
+      <div class="input">
+    <label class="textlabel" for="uname">Email Id</label>
+    <input type="text" placeholder="Enter Email Id" name="uname" required>
+  </div>
+  <div class="input">
+    <label class="textlabel" for="psw">Password</label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+  </div>
+  <div class="btn">
+    <button type="submit">Login</button></div>
+   <div class="checkbox"> 
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </div>
+    <a href="sign in.html">Don't have an account?</a>
+  </div></body>
+  
+</html>
